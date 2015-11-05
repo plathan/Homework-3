@@ -1,0 +1,47 @@
+/* 
+  Copyright 2015 Drew Bryant and Patrick Lathan
+*/
+body{
+  width: 75%;
+  margin: auto;
+  border: solid blue;
+}
+h1{
+  color: blue;
+}
+#headerLine{
+    padding: 25px;
+    margin-bottom: 0px;
+}
+
+form{
+  width: 500px;
+  margin: auto;
+  padding: 25px;
+}
+input[type="text"], input[type="number"]{
+  width: 35%;
+  margin-bottom: .5em;
+}
+label{
+  text-align: right;
+  width: 10em;
+  float: left;
+  margin-right: .5em;
+}
+#footerLine{
+  margin: auto;
+  border-top: solid blue;
+  padding: 25px;
+}
+.noshow{
+  color: white;
+}
+.rwd{
+  display: none;
+}
+@media only screen and (max-width: 399px){
+  .rwd{
+    display: block;
+  }
+}
